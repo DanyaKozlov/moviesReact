@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/moviesReact/static/css/main.392893ae.css",
+    "main.js": "/moviesReact/static/js/main.f6b9d429.js",
+    "static/media/Jura-Bold.ttf": "/moviesReact/static/media/Jura-Bold.6046416b6f2bfe4c9dc0.ttf",
+    "static/media/Jura-Medium.ttf": "/moviesReact/static/media/Jura-Medium.4b349faa8c507669652b.ttf",
+    "static/media/паутинка.png": "/moviesReact/static/media/паутинка.d9f37b909f65d732efb9.png",
+    "static/media/Jura-Bold.woff": "/moviesReact/static/media/Jura-Bold.82447dc414f6aadfa44e.woff",
+    "static/media/Jura-Medium.woff": "/moviesReact/static/media/Jura-Medium.aa2a40a18275c38fe6e7.woff",
+    "static/media/Jura-Bold.woff2": "/moviesReact/static/media/Jura-Bold.5df18dcbb3abc243eed7.woff2",
+    "static/media/Jura-Medium.woff2": "/moviesReact/static/media/Jura-Medium.2dd43854d341bcd5f729.woff2",
+    "index.html": "/moviesReact/index.html",
+    "main.392893ae.css.map": "/moviesReact/static/css/main.392893ae.css.map",
+    "main.f6b9d429.js.map": "/moviesReact/static/js/main.f6b9d429.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.392893ae.css",
+    "static/js/main.f6b9d429.js"
+  ]
+}
