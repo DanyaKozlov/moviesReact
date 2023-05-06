@@ -5,9 +5,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #242424;
+  background-image: url(/паутинка.png);
+  background-repeat: no-repeat;
 }
-
+@font-face {
+  font-family: 'Jura medium';
+  src: local('Jura Medium'), local('Jura-Medium'),
+      url('/Fonts/Jura-Medium/Jura-Medium.woff2') format('woff2'),
+      url('/Fonts/Jura-Medium/Jura-Medium.woff') format('woff'),
+      url('/Fonts/Jura-Medium/Jura-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Jura bold';
+  src: local('Jura Bold'), local('Jura-Bold'),
+      url('/Fonts/Jura-Bold/Jura-Bold.woff2') format('woff2'),
+      url('/Fonts/Jura-Bold/Jura-Bold.woff') format('woff'),
+      url('/Fonts/Jura-Bold/Jura-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+p{
+  margin: 0px;
+}
+img{
+  height: 400px;
+  width: 270px;
+}
+.Content{
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  margin-top: 2%;
+  font-family: 'Jura medium';
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerLogo{
+    font-family: 'Jura bold';
+    font-size: 35px;
+}
+.headerText{
+  display: flex;
+  justify-content: start;
+  font-size: 26px;
+}
+.headerInf{
+  margin-right: 3rem;
+}
+.Movies{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill, minmax(250px, 1fr)
+  );
+  gap: 1rem;
+}
+.Filters{
+  font-size: 13px;
+}
+.footer{
+  margin: 50px 0px;
+}
+.footerText{
+  margin-top: 10px;
+}
+.validate{
+  background-color: #8B7878;
+  height: 2vw;
+}
+.inputField input[type=search]{
+  padding-left: 10px;
+  color:#ffffff;
+  font-family: 'Jura medium' ;
+  font-size: 15px;
 }
