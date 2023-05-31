@@ -7,12 +7,12 @@ class Main extends React.Component{
         movies: []
     };
     componentDidMount(){
-        fetch('http://www.omdbapi.com/?apikey=c8198fff&s=spider man&type=movie')
+        fetch('https://www.omdbapi.com/?apikey=c8198fff&s=spider man&type=movie')
         .then((response) => response.json())
         .then((data) => this.setState({ movies: data.Search, loading: false}))
     }
     searchMovies = (str) => {
-        fetch(`http://www.omdbapi.com/?apikey=c8198fff&s=${str}`)
+        fetch(`https://www.omdbapi.com/?apikey=c8198fff&s=${str}`)
         .then((response) => response.json())
         .then((data) => this.setState({movies: data.search, loading: false}));
     }
